@@ -1,0 +1,40 @@
+  /* GENERAL
+     ========================================================================== */
+
+     html{
+        box-sizing: border-box;
+        font: 62.5%;
+        
+
+     }
+    *, *::before, *::after{
+
+    box-sizing: inherit;
+    }
+      /* ELEMENT
+     ========================================================================== */
+     h1 {
+        font-family: "Merriweather", serif;
+        font-weight: bold;
+        font-size: 2.4rem;
+     }
+
+     div.wrapper{
+        width: 1170px;
+     }
+
+
+      /* PARTI
+     ========================================================================== */
+
+
+     header{
+
+        background-color: #379AE3;
+     }
+
+     header .wrapper{
+        display: flex;        
+        justify-content: space-between;
+     }
+     
